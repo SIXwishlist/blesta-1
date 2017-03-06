@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "name": "tpay.com",
+  "description": "tpay.com fast online payments",
+
+  "authors": [
+    {
+      "name": "tpay.com payment gateway",
+      "url": "https://tpay.com"
+    }
+  ],
+  "currencies": ["PLN"],
+  "signup_url": "https://secure.tpay.com/panel/rejestracja.htm"
+}
