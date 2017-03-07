@@ -21,7 +21,7 @@ class TpayPayments extends NonmerchantGateway
     /**
      * @var string The version of this gateway
      */
-    private static $version = "1.0.0";
+    private static $version = "1.0.1";
     /**
      * @var string The authors of this gateway
      */

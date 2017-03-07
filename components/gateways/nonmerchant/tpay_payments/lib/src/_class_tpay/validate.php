@@ -461,7 +461,6 @@ class Validate
         'crc'                 => array(
             self::REQUIRED   => false,
             self::VALIDATION => array(self::STRING, self::MAXLENGHT_128),
-            self::FILTER     => 'sign'
         ),
         /**
          * Allow only online payment.
@@ -486,7 +485,7 @@ class Validate
          */
         'grupa'            => array(
             self::REQUIRED   => false,
-            self::VALIDATION => array('uint'),
+            self::VALIDATION => array('unit'),
         ),
         /**
          * The resulting URL return address that will send the result of a transaction in the form POST parameters.
